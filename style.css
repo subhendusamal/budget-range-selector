@@ -1,0 +1,408 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #F3F1C1;
+    font-family: poppins;
+    height: 1130px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
+   
+}
+ body ::-webkit-scrollbar{
+    display: none;  
+} 
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.upper-container .para-1{
+    position: relative;
+   top: 208px;
+    left: 358px;
+    color: #000;
+font-family: Poppins;
+font-size: 39px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 72px */
+}
+.upper-container .para-1 span{
+    color: #000;
+font-family: "Zilla Slab Highlight";
+font-size: 38px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.min-max{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 207px;
+    left: 363.8px;
+    /* width: 370px;
+height: 62px; */
+}
+
+/* .min-max span{
+    width: 38px;
+    height: 2px;
+}  */
+.min-max .min{
+width: 356px;
+height: 60.9px;
+border-radius: 24px;
+border: 1px solid #FFF;
+background: #000;
+}
+
+.min-max .max{
+width: 356px;
+height: 60.9px;
+margin-left: -0.6px;
+/* border-radius: 30px 30px 30px  30px/25px 25px 25px 25px; */
+border-radius: 24px;
+border: 1px solid #FFF;
+background: #000;
+}
+.new-min{
+   
+    /* border-radius: 30px 30px 30px  30px/25px 25px 25px 25px; */
+   
+    border: 1px solid #000;
+    background: #fff
+}
+.min-max input{
+    /* margin: 10px; */
+    padding-left: 19px; 
+    
+} 
+.min-max input::placeholder {
+color: #FFF;
+
+}
+.min{
+    color: #FFfF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+/* text-align: left; */
+
+}
+.max{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.inp:hover::placeholder{
+color: #000;
+background: #fff;
+font-size: 16px;
+font-style: normal;
+font-weight: 390;
+line-height: normal; 
+ transition: all 1030ms ease-out; 
+}
+.inp:hover{
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-size: 16px;
+font-style: normal;
+font-weight: 390;
+line-height: normal;
+transition: all 170ms ease-out; 
+
+}
+
+.space{
+    margin: 17px;
+    margin-top: 32px;
+    margin-right: 20px;
+    width: 22px;
+height: 1.6px;
+background: #000;
+}
+.key-text{
+    position: relative;
+    top: 208px;
+    left: 362px;
+    color: #000;
+font-family: Poppins;
+font-size: 39px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 72px */
+}
+
+
+
+
+
+
+/* Dropdown container */
+.dropdown {
+     /* position: fixed;  */
+    position: relative;
+     bottom: -215px;
+    right: -40px; 
+
+}
+/* Dropdown button */
+.dropdown-btn {
+   
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* gap: 250px; Space between text and icon */
+    width: 816px;
+    height: 65px;
+    border-radius: 23px;
+    border: 1px solid #FFFDFD;
+    padding-left:21px;
+    background: #000;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 15px;
+    margin-left: 320px;
+    transition: background-color 300ms ease-out;
+    position: relative;
+    top: -10px;
+}
+.btn-text{
+    position: absolute;
+    left: 35px;
+    transition: transform 0.3s ease; 
+}
+/* Dropdown icon */
+.dropdown-icon {
+  font-size: 25px;
+    position: absolute;
+    right: 30px;
+    transition: transform 0.3s ease;
+}
+
+/* Rotate icon when active */
+.dropdown.active .dropdown-icon {
+    transform: rotate(180deg);
+    /* position: relative;
+    right: -545px; */
+
+}
+/* Dropdown content (Initially hidden) */
+.dropdown-content {
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transform: translateY(-10px);
+    position: absolute;      
+    transition: all 300ms ease-out;
+   
+}
+.dropdown-item{
+    width: 816px;
+    height: 56px;
+    border-radius: 23px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    
+    background: #000;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16.5px;
+    font-style: normal;
+    font-weight: 315;
+    line-height: normal;
+   
+      padding-top: 0px;
+    padding-bottom: 5px; 
+    margin-left: 320px;
+    margin-bottom:6px; 
+    cursor: pointer;
+    transition: background 0.3s;
+    z-index: 10;
+}
+.dropdown-item span{
+    position: relative;
+    top: 17px;
+    margin-left: 33px;
+}
+
+
+
+
+
+.dropdown-submit{
+width: 40px; /* Adjust based on image size */
+height: 40px;
+background-image: url("tick mark 1.png");
+background-size: cover;
+transition: background-image 0.3s ease-in-out;}
+
+
+
+.dropdown-submit:hover {
+    background-image: url("tick-hover.png");
+}
+
+
+ .dropdown-submit{
+    position: absolute;
+    bottom: 145.1px;
+    left: 1201px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    cursor: pointer;
+  } 
+  
+
+    
+
+
+
+
+
+
+/* Show dropdown when active */
+.dropdown.active .dropdown-content {
+    opacity: 1;
+    pointer-events: auto;
+    position: relative;  
+
+    transform: translateY(0);
+    transition: content 0.5s ease-in-out;
+
+}
+
+
+
+  .dropdown.dropdown.active .btn-text{
+    color: #fff;
+   
+  }
+
+.dropdown-item:hover {
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+    font-weight: 400;
+}
+
+.text p{
+    position: relative;
+    top: -23px;
+    left: 356px;
+    color: #000;
+font-family: "Zen Dots";
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px ;
+}
+.text hr{
+    margin-left: 357px;
+    margin-top: 43px;
+    width: 735px;
+    height: 0.7px;
+    background: #000;
+}
+.text hr .one{
+
+
+}
+
+.text  .two{
+   position: relative;
+   top: -60px;
+}
+.skip{
+    position: fixed;
+}
+.btn-skip {
+      
+   
+      position: relative;
+    top: 118px;
+    left: 1444px; 
+    color: #000;
+font-family: Poppins;
+font-size: 16.5px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+/* border: none; */
+background: transparent;
+border: none;
+cursor: pointer;
+}
+     
+
+
+
+
+
+
+
+
+
+/* .img-cont {
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    top: 400px;
+    height: 50px;
+    width: 50px;
+}
+
+.dropdown-submit {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    width: 50px;  
+    height: 50px; 
+}
+
+
+.dropdown-submit img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+
+.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transform: scale(1.2);  
+}
+
+
+.dropdown-submit:hover .hover-img {
+    opacity: 1;
+    transform: scale(1); 
+}
+
+.dropdown-submit:hover .default-img {
+    opacity: 0;
+    transform: scale(1.4); 
+} */
+
+
+
