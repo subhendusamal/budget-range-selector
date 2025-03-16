@@ -41,14 +41,9 @@ line-height: 150%;
     position: relative;
     top: 207px;
     left: 363.8px;
-    /* width: 370px;
-height: 62px; */
 }
 
-/* .min-max span{
-    width: 38px;
-    height: 2px;
-}  */
+
 .min-max .min{
 width: 356px;
 height: 60.9px;
@@ -61,14 +56,14 @@ background: #000;
 width: 356px;
 height: 60.9px;
 margin-left: -0.6px;
-/* border-radius: 30px 30px 30px  30px/25px 25px 25px 25px; */
+
 border-radius: 24px;
 border: 1px solid #FFF;
 background: #000;
 }
 .new-min{
    
-    /* border-radius: 30px 30px 30px  30px/25px 25px 25px 25px; */
+   
    
     border: 1px solid #000;
     background: #fff
@@ -160,7 +155,6 @@ line-height: 150%; /* 72px */
     cursor: pointer;
     display: flex;
     align-items: center;
-    /* gap: 250px; Space between text and icon */
     width: 816px;
     height: 65px;
     border-radius: 23px;
@@ -195,9 +189,7 @@ line-height: 150%; /* 72px */
 /* Rotate icon when active */
 .dropdown.active .dropdown-icon {
     transform: rotate(180deg);
-    /* position: relative;
-    right: -545px; */
-
+  
 }
 /* Dropdown content (Initially hidden) */
 .dropdown-content {
@@ -353,56 +345,6 @@ cursor: pointer;
 
 
 
-
-
-
-/* .img-cont {
-    position: relative;
-    display: inline-block;
-    left: 400px;
-    top: 400px;
-    height: 50px;
-    width: 50px;
-}
-
-.dropdown-submit {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    position: relative;
-    overflow: hidden;
-    width: 50px;  
-    height: 50px; 
-}
-
-
-.dropdown-submit img {
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-
-.hover-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transform: scale(1.2);  
-}
-
-
-.dropdown-submit:hover .hover-img {
-    opacity: 1;
-    transform: scale(1); 
-}
-
-.dropdown-submit:hover .default-img {
-    opacity: 0;
-    transform: scale(1.4); 
-} */
 
 
 
