@@ -18,10 +18,55 @@
 
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headre.css">
+    <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="profile.css">
 
 
 </head>
 <body>
+
+
+    <div class="header"> 
+        <header>
+        <div class="logo"> <a href="#"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
+        <div class="middle"> <nav>
+             <ul class="nav-links">
+            <li><a href="#"><div class="Search"><img src="searchicon.png" alt=""> <input type="search" placeholder="Search a Gadget"></input></div></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Compare</a></li>
+            <li><a href="#">Price tracker</a></li>
+            <li><a href="#">Tech news</a></li>
+             </ul> 
+        </nav></div>
+
+        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>       
+    </header>
+    <div class="dropdown-profile">
+       
+       
+        <div class="dropdown-content-profile" id="dropdown-content-profile">
+            <div class="triangle"></div>
+            <div class="order-list" >
+               <a href=""> <span class="pro-set">Profile and settings</span></a>
+               <hr class="one">
+               <a href=""> <span class="wish">Wishlist</span></a>
+               <hr class="two">
+               <a href=""> <span class="sup-cont">Support and Contact</span></a>
+               <hr class="three">
+               <a href=""> <span class="log">Log out</span></a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
     <div class="main-container">
         <div class="upper-container">
             <p class="para-1">Type a  <span>Budget Range</span> for your peace of mind</p>
@@ -37,12 +82,12 @@
             
             <button class="dropdown-btn">
                 <span class="btn-text"> Just experimenting !</span>
-                <span class="dropdown-icon"><i class="fa-solid fa-chevron-down"></i></span> <!-- Dropdown Icon -->
+                <span class="dropdown-icon"><i class="fa-solid fa-chevron-down"></i></span><!-- Dropdown Icon-->
             </button>
             <div class="dropdown-content">
-                <div class="dropdown-item"><span>Gaming</span> </div>
-                <div class="dropdown-item"><span> Studying</span></div>
-                <div class="dropdown-item"><span>Working</span> </div>
+                <div class="dropdown-item Gaming"><span>Gaming</span> </div>
+                <div class="dropdown-item study"><span> Studying</span></div>
+                <div class="dropdown-item work"><span>Working</span> </div>
                 <div class="dropdown-item normal"> <span>General use</span></div>
             </div>
 
@@ -66,6 +111,42 @@
             <div class="skip"><button class="btn-skip">Skip</button></div>
 
     </div>
+
+
+
+
+
+    <div class="footer">
+        <hr>
+        <footer>
+            <div class="f-left"> <span class="span-1">Zenspec</span>
+                <p> <span class="span1-1">© 2025, Zenspec.tech</span><br><span class="span1-2">All rights
+                        reserved.</span></p>
+            </div>
+
+            <div class="f-middle">
+                <p>About us <br>Contact us <br>Terms and conditions.</p>
+            </div>
+
+            <div class="f-right">
+                <p>Crafted with</p>
+                <div class="heart"><video autoplay loop muted src="zenspec.heart.mp4"></video>
+                    <div class="overlay"></div>
+                </div>
+
+
+
+                <div class="social">
+                    <button><i class="fa-brands fa-facebook"></i></button>
+                    <button><i class="fa-brands fa-linkedin"></i></button>
+                    <button><i class="fa-brands fa-youtube"></i></button>
+                    <button><i class="fa-brands fa-instagram"></i></button>
+                </div>
+            </div>
+        </footer>
+
+</div>
     <script src="app.js"></script>
+    <script src="profile.js"></script>
 </body>
 </html>
