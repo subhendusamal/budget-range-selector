@@ -261,7 +261,7 @@ line-height: 150%;
  
 width: 40px;
 height: 40px;
-background-image: url("tick mark 1.png");
+background-image: url("Budget-range-tick mark 1.png");
 background-size: cover;
 transition: background-image 0.3s ease-in-out; 
 }
@@ -269,7 +269,7 @@ transition: background-image 0.3s ease-in-out;
 
 
 .dropdown-submit:hover {
-    background-image: url("tick-hover.png");
+    background-image: url("Budget-range-tick-hover.png");
 }
 
 
