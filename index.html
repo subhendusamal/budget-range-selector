@@ -29,37 +29,21 @@
 
     <div class="header"> 
         <header>
-        <div class="logo"> <a href="#"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
+        <div class="logo"> <a href="/home"><img src="Zenspeclogo.png" alt="app-logo"></a></div>
         <div class="middle"> <nav>
              <ul class="nav-links">
             <li><a href="#"><div class="Search"><img src="searchicon.png" alt=""> <input type="search" placeholder="Search a Gadget"></input></div></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Category</a></li>
-            <li><a href="#">Compare</a></li>
-            <li><a href="#">Price tracker</a></li>
-            <li><a href="#">Tech news</a></li>
+            <li><a href="/home">Home</a></li>
+            <li><a href="/category">Category</a></li>
+            <li><a href="#" onclick="event.preventDefault(); document.getElementById('postForm').submit();">Compare</a></li>
+            <form id="postForm" action="/compare/form" method="POST" style="display: none;"></form>
+            <li><a href="/pricetracker">Price tracker</a></li>
+            <li><a href="/technews">Tech news</a></li>
              </ul> 
         </nav></div>
-
-        <button class="user"><a href="#"><img src="user-logo.svg" alt="user-icon" onclick="toggleDropdown()" ></a></button>       
+        <div class="user"><a href="#"><img src="user-logo.svg" alt="user-icon"></a></div>
     </header>
-    <div class="dropdown-profile">
-       
-       
-        <div class="dropdown-content-profile" id="dropdown-content-profile">
-            <div class="triangle"></div>
-            <div class="order-list" >
-               <a href=""> <span class="pro-set">Profile and settings</span></a>
-               <hr class="one">
-               <a href=""> <span class="wish">Wishlist</span></a>
-               <hr class="two">
-               <a href=""> <span class="sup-cont">Support and Contact</span></a>
-               <hr class="three">
-               <a href=""> <span class="log">Log out</span></a>
-            </div>
-        </div>
-    </div>
-    </div>
+</div>
 
 
 

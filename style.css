@@ -140,10 +140,6 @@ line-height: 150%;
 }
 
 
-
-
-
-
 /* Dropdown container */
 .dropdown {
    
@@ -207,7 +203,7 @@ line-height: 150%;
 }
 .dropdown-item{
     width: 816px;
-    height: 56px;
+    height: 55px;
     border-radius: 23px;
     border: 1px solid rgba(255, 255, 255, 0.50);
     
@@ -219,7 +215,7 @@ line-height: 150%;
     font-weight: 315;
     line-height: normal;
    
-      padding-top: 0px;
+      padding-top: 5px;
     padding-bottom: 5px; 
     margin-left: 320px;
     margin-bottom:6px; 
@@ -239,22 +235,19 @@ line-height: 150%;
 }
 .study{
     position: absolute;
-    top: 70px;
+    top: 72px;
 }
 
 .work{
     position: absolute;
-    top: 140px;
+    top: 145px;
 }
 
 .normal{
     position: absolute;
-    top: 210px;
+    top: 218px;
 
 }
-
-
-
 
 
 .dropdown-submit{
